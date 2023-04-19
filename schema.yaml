@@ -109,7 +109,7 @@
       required: true
       relationship: null
 - description: null
-  label: "alaska"
+  label: "Alaska"
   name: "alaska"
   sort: 1
   listed: true
@@ -219,7 +219,7 @@
       required: true
       relationship: null
 - description: null
-  label: "arizona"
+  label: "Arizona"
   name: "arizona"
   sort: 1
   listed: true
@@ -329,7 +329,7 @@
       required: true
       relationship: null
 - description: null
-  label: "arkansas"
+  label: "Arkansas"
   name: "arkansas"
   sort: 1
   listed: true
@@ -439,7 +439,7 @@
       required: true
       relationship: null
 - description: null
-  label: "california"
+  label: "California"
   name: "california"
   sort: 1
   listed: true
@@ -549,7 +549,7 @@
       required: true
       relationship: null
 - description: null
-  label: "colorado"
+  label: "Colorado"
   name: "colorado"
   sort: 1
   listed: true
@@ -659,7 +659,7 @@
       required: true
       relationship: null
 - description: null
-  label: "connecticut"
+  label: "Connecticut"
   name: "connecticut"
   sort: 1
   listed: true
@@ -769,7 +769,7 @@
       required: true
       relationship: null
 - description: null
-  label: "florida Post"
+  label: "Florida Post"
   name: "florida_post"
   sort: 1
   listed: true
@@ -879,7 +879,7 @@
       required: true
       relationship: null
 - description: null
-  label: "florida"
+  label: "Florida"
   name: "florida"
   sort: 1
   listed: true
@@ -989,7 +989,7 @@
       required: true
       relationship: null
 - description: null
-  label: "louisiana"
+  label: "Louisiana"
   name: "louisiana"
   sort: 1
   listed: true
