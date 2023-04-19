@@ -5,7 +5,7 @@
   listed: true
   hasRoute: true
   showAsTable: false
-  parent: "mobile_home_insurance"
+  parent: null
   fields:
     - name: "sub_text"
       label: "List Summary"
