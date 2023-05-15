@@ -67,7 +67,7 @@
     - name: "schemamarkup"
       label: "Schema Markup"
       description: null
-      datatype: "wysiwyg_basic"
+      datatype: "textarea"
       sort: 1
       required: true
       relationship: null
@@ -90,15 +90,27 @@
         options:
           0: "No"
           1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
+    - name: "related_posts_1"
+      label: "Related Posts 1"
       description: null
-      datatype: "one_to_many"
+      datatype: "internal_link"
       sort: 1
-      required: false
+      required: true
       relationship: null
-      settings:
-        list: true
+    - name: "related_posts_2"
+      label: "Related Posts 2"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "related_posts_3"
+      label: "Related Posts 3"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
     - name: "body"
       label: "Body"
       description: null
@@ -175,7 +187,7 @@
     - name: "schemamarkup"
       label: "Schema Markup"
       description: null
-      datatype: "wysiwyg_basic"
+      datatype: "textarea"
       sort: 1
       required: true
       relationship: null
@@ -198,15 +210,27 @@
         options:
           0: "No"
           1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
+    - name: "related_posts_1"
+      label: "Related Posts 1"
       description: null
-      datatype: "one_to_many"
+      datatype: "internal_link"
       sort: 1
-      required: false
+      required: true
       relationship: null
-      settings:
-        list: true
+    - name: "related_posts_2"
+      label: "Related Posts 2"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "related_posts_3"
+      label: "Related Posts 3"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
     - name: "body"
       label: "Body"
       description: null
@@ -283,7 +307,7 @@
     - name: "schemamarkup"
       label: "Schema Markup"
       description: null
-      datatype: "wysiwyg_basic"
+      datatype: "textarea"
       sort: 1
       required: true
       relationship: null
@@ -306,15 +330,27 @@
         options:
           0: "No"
           1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
+    - name: "related_posts_1"
+      label: "Related Posts 1"
       description: null
-      datatype: "one_to_many"
+      datatype: "internal_link"
       sort: 1
-      required: false
+      required: true
       relationship: null
-      settings:
-        list: true
+    - name: "related_posts_2"
+      label: "Related Posts 2"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "related_posts_3"
+      label: "Related Posts 3"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
     - name: "body"
       label: "Body"
       description: null
@@ -391,7 +427,7 @@
     - name: "schemamarkup"
       label: "Schema Markup"
       description: null
-      datatype: "wysiwyg_basic"
+      datatype: "textarea"
       sort: 1
       required: true
       relationship: null
@@ -414,15 +450,27 @@
         options:
           0: "No"
           1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
+    - name: "related_posts_1"
+      label: "Related Posts 1"
       description: null
-      datatype: "one_to_many"
+      datatype: "internal_link"
       sort: 1
-      required: false
+      required: true
       relationship: null
-      settings:
-        list: true
+    - name: "related_posts_2"
+      label: "Related Posts 2"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "related_posts_3"
+      label: "Related Posts 3"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
     - name: "body"
       label: "Body"
       description: null
@@ -499,7 +547,7 @@
     - name: "schemamarkup"
       label: "Schema Markup"
       description: null
-      datatype: "wysiwyg_basic"
+      datatype: "textarea"
       sort: 1
       required: true
       relationship: null
@@ -522,15 +570,27 @@
         options:
           0: "No"
           1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
+    - name: "related_posts_1"
+      label: "Related Posts 1"
       description: null
-      datatype: "one_to_many"
+      datatype: "internal_link"
       sort: 1
-      required: false
+      required: true
       relationship: null
-      settings:
-        list: true
+    - name: "related_posts_2"
+      label: "Related Posts 2"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "related_posts_3"
+      label: "Related Posts 3"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
     - name: "body"
       label: "Body"
       description: null
@@ -607,7 +667,7 @@
     - name: "schemamarkup"
       label: "Schema Markup"
       description: null
-      datatype: "wysiwyg_basic"
+      datatype: "textarea"
       sort: 1
       required: true
       relationship: null
@@ -630,15 +690,27 @@
         options:
           0: "No"
           1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
+    - name: "related_posts_1"
+      label: "Related Posts 1"
       description: null
-      datatype: "one_to_many"
+      datatype: "internal_link"
       sort: 1
-      required: false
+      required: true
       relationship: null
-      settings:
-        list: true
+    - name: "related_posts_2"
+      label: "Related Posts 2"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "related_posts_3"
+      label: "Related Posts 3"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
     - name: "body"
       label: "Body"
       description: null
@@ -715,7 +787,7 @@
     - name: "schemamarkup"
       label: "Schema Markup"
       description: null
-      datatype: "wysiwyg_basic"
+      datatype: "textarea"
       sort: 1
       required: true
       relationship: null
@@ -738,15 +810,27 @@
         options:
           0: "No"
           1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
+    - name: "related_posts_1"
+      label: "Related Posts 1"
       description: null
-      datatype: "one_to_many"
+      datatype: "internal_link"
       sort: 1
-      required: false
+      required: true
       relationship: null
-      settings:
-        list: true
+    - name: "related_posts_2"
+      label: "Related Posts 2"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "related_posts_3"
+      label: "Related Posts 3"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
     - name: "body"
       label: "Body"
       description: null
@@ -755,13 +839,13 @@
       required: true
       relationship: null
 - description: null
-  label: "florida Post"
-  name: "florida_post"
+  label: "Florida Post"
+  name: "mobile_home_insurance_florida_post"
   sort: 1
   listed: true
   hasRoute: true
   showAsTable: true
-  parent: "connecticut"
+  parent: "mobile_home_insurance_florida"
   fields:
     - name: "sub_text"
       label: "List Summary"
@@ -823,7 +907,7 @@
     - name: "schemamarkup"
       label: "Schema Markup"
       description: null
-      datatype: "wysiwyg_basic"
+      datatype: "textarea"
       sort: 1
       required: true
       relationship: null
@@ -846,15 +930,27 @@
         options:
           0: "No"
           1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
+    - name: "related_posts_1"
+      label: "Related Posts 1"
       description: null
-      datatype: "one_to_many"
+      datatype: "internal_link"
       sort: 1
-      required: false
+      required: true
       relationship: null
-      settings:
-        list: true
+    - name: "related_posts_2"
+      label: "Related Posts 2"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "related_posts_3"
+      label: "Related Posts 3"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
     - name: "body"
       label: "Body"
       description: null
@@ -863,1088 +959,8 @@
       required: true
       relationship: null
 - description: null
-  label: "florida Post"
-  name: "florida_post"
-  sort: 1
-  listed: true
-  hasRoute: true
-  showAsTable: true
-  parent: "connecticut"
-  fields:
-    - name: "sub_text"
-      label: "List Summary"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "header_text"
-      label: "Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "sub_header"
-      label: "Sub Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_image"
-      label: "Featured Image"
-      description: null
-      datatype: "images"
-      sort: 1
-      required: null
-      relationship: null
-      settings:
-        limit: 1
-        list: false
-    - name: "is_feature_clipped"
-      label: "Clip Featured Image"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "featured_image_alt"
-      label: "Featured Image Alt Text"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_video"
-      label: "Featured Video"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "schemamarkup"
-      label: "Schema Markup"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "jump_nav"
-      label: "Jump Nav"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "show_related_posts"
-      label: "Show Related Posts"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
-      description: null
-      datatype: "one_to_many"
-      sort: 1
-      required: false
-      relationship: null
-      settings:
-        list: true
-    - name: "body"
-      label: "Body"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-- description: null
-  label: "florida Post"
-  name: "florida_post"
-  sort: 1
-  listed: true
-  hasRoute: true
-  showAsTable: true
-  parent: "connecticut"
-  fields:
-    - name: "sub_text"
-      label: "List Summary"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "header_text"
-      label: "Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "sub_header"
-      label: "Sub Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_image"
-      label: "Featured Image"
-      description: null
-      datatype: "images"
-      sort: 1
-      required: null
-      relationship: null
-      settings:
-        limit: 1
-        list: false
-    - name: "is_feature_clipped"
-      label: "Clip Featured Image"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "featured_image_alt"
-      label: "Featured Image Alt Text"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_video"
-      label: "Featured Video"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "schemamarkup"
-      label: "Schema Markup"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "jump_nav"
-      label: "Jump Nav"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "show_related_posts"
-      label: "Show Related Posts"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
-      description: null
-      datatype: "one_to_many"
-      sort: 1
-      required: false
-      relationship: null
-      settings:
-        list: true
-    - name: "body"
-      label: "Body"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-- description: null
-  label: "florida Post"
-  name: "florida_post"
-  sort: 1
-  listed: true
-  hasRoute: true
-  showAsTable: true
-  parent: "connecticut"
-  fields:
-    - name: "sub_text"
-      label: "List Summary"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "header_text"
-      label: "Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "sub_header"
-      label: "Sub Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_image"
-      label: "Featured Image"
-      description: null
-      datatype: "images"
-      sort: 1
-      required: null
-      relationship: null
-      settings:
-        limit: 1
-        list: false
-    - name: "is_feature_clipped"
-      label: "Clip Featured Image"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "featured_image_alt"
-      label: "Featured Image Alt Text"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_video"
-      label: "Featured Video"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "schemamarkup"
-      label: "Schema Markup"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "jump_nav"
-      label: "Jump Nav"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "show_related_posts"
-      label: "Show Related Posts"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
-      description: null
-      datatype: "one_to_many"
-      sort: 1
-      required: false
-      relationship: null
-      settings:
-        list: true
-    - name: "body"
-      label: "Body"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-- description: null
-  label: "florida Post"
-  name: "florida_post"
-  sort: 1
-  listed: true
-  hasRoute: true
-  showAsTable: true
-  parent: "connecticut"
-  fields:
-    - name: "sub_text"
-      label: "List Summary"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "header_text"
-      label: "Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "sub_header"
-      label: "Sub Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_image"
-      label: "Featured Image"
-      description: null
-      datatype: "images"
-      sort: 1
-      required: null
-      relationship: null
-      settings:
-        limit: 1
-        list: false
-    - name: "is_feature_clipped"
-      label: "Clip Featured Image"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "featured_image_alt"
-      label: "Featured Image Alt Text"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_video"
-      label: "Featured Video"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "schemamarkup"
-      label: "Schema Markup"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "jump_nav"
-      label: "Jump Nav"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "show_related_posts"
-      label: "Show Related Posts"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
-      description: null
-      datatype: "one_to_many"
-      sort: 1
-      required: false
-      relationship: null
-      settings:
-        list: true
-    - name: "body"
-      label: "Body"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-- description: null
-  label: "florida Post"
-  name: "florida_post"
-  sort: 1
-  listed: true
-  hasRoute: true
-  showAsTable: true
-  parent: "connecticut"
-  fields:
-    - name: "sub_text"
-      label: "List Summary"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "header_text"
-      label: "Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "sub_header"
-      label: "Sub Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_image"
-      label: "Featured Image"
-      description: null
-      datatype: "images"
-      sort: 1
-      required: null
-      relationship: null
-      settings:
-        limit: 1
-        list: false
-    - name: "is_feature_clipped"
-      label: "Clip Featured Image"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "featured_image_alt"
-      label: "Featured Image Alt Text"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_video"
-      label: "Featured Video"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "schemamarkup"
-      label: "Schema Markup"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "jump_nav"
-      label: "Jump Nav"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "show_related_posts"
-      label: "Show Related Posts"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
-      description: null
-      datatype: "one_to_many"
-      sort: 1
-      required: false
-      relationship: null
-      settings:
-        list: true
-    - name: "body"
-      label: "Body"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-- description: null
-  label: "florida Post"
-  name: "florida_post"
-  sort: 1
-  listed: true
-  hasRoute: true
-  showAsTable: true
-  parent: "connecticut"
-  fields:
-    - name: "sub_text"
-      label: "List Summary"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "header_text"
-      label: "Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "sub_header"
-      label: "Sub Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_image"
-      label: "Featured Image"
-      description: null
-      datatype: "images"
-      sort: 1
-      required: null
-      relationship: null
-      settings:
-        limit: 1
-        list: false
-    - name: "is_feature_clipped"
-      label: "Clip Featured Image"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "featured_image_alt"
-      label: "Featured Image Alt Text"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_video"
-      label: "Featured Video"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "schemamarkup"
-      label: "Schema Markup"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "jump_nav"
-      label: "Jump Nav"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "show_related_posts"
-      label: "Show Related Posts"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
-      description: null
-      datatype: "one_to_many"
-      sort: 1
-      required: false
-      relationship: null
-      settings:
-        list: true
-    - name: "body"
-      label: "Body"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-- description: null
-  label: "florida Post"
-  name: "florida_post"
-  sort: 1
-  listed: true
-  hasRoute: true
-  showAsTable: true
-  parent: "connecticut"
-  fields:
-    - name: "sub_text"
-      label: "List Summary"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "header_text"
-      label: "Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "sub_header"
-      label: "Sub Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_image"
-      label: "Featured Image"
-      description: null
-      datatype: "images"
-      sort: 1
-      required: null
-      relationship: null
-      settings:
-        limit: 1
-        list: false
-    - name: "is_feature_clipped"
-      label: "Clip Featured Image"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "featured_image_alt"
-      label: "Featured Image Alt Text"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_video"
-      label: "Featured Video"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "schemamarkup"
-      label: "Schema Markup"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "jump_nav"
-      label: "Jump Nav"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "show_related_posts"
-      label: "Show Related Posts"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
-      description: null
-      datatype: "one_to_many"
-      sort: 1
-      required: false
-      relationship: null
-      settings:
-        list: true
-    - name: "body"
-      label: "Body"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-- description: null
-  label: "florida Post"
-  name: "florida_post"
-  sort: 1
-  listed: true
-  hasRoute: true
-  showAsTable: true
-  parent: "connecticut"
-  fields:
-    - name: "sub_text"
-      label: "List Summary"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "header_text"
-      label: "Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "sub_header"
-      label: "Sub Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_image"
-      label: "Featured Image"
-      description: null
-      datatype: "images"
-      sort: 1
-      required: null
-      relationship: null
-      settings:
-        limit: 1
-        list: false
-    - name: "is_feature_clipped"
-      label: "Clip Featured Image"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "featured_image_alt"
-      label: "Featured Image Alt Text"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_video"
-      label: "Featured Video"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "schemamarkup"
-      label: "Schema Markup"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "jump_nav"
-      label: "Jump Nav"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "show_related_posts"
-      label: "Show Related Posts"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
-      description: null
-      datatype: "one_to_many"
-      sort: 1
-      required: false
-      relationship: null
-      settings:
-        list: true
-    - name: "body"
-      label: "Body"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-- description: null
-  label: "florida Post"
-  name: "florida_post"
-  sort: 1
-  listed: true
-  hasRoute: true
-  showAsTable: true
-  parent: "connecticut"
-  fields:
-    - name: "sub_text"
-      label: "List Summary"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "header_text"
-      label: "Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "sub_header"
-      label: "Sub Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_image"
-      label: "Featured Image"
-      description: null
-      datatype: "images"
-      sort: 1
-      required: null
-      relationship: null
-      settings:
-        limit: 1
-        list: false
-    - name: "is_feature_clipped"
-      label: "Clip Featured Image"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "featured_image_alt"
-      label: "Featured Image Alt Text"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_video"
-      label: "Featured Video"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "schemamarkup"
-      label: "Schema Markup"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "jump_nav"
-      label: "Jump Nav"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "show_related_posts"
-      label: "Show Related Posts"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
-      description: null
-      datatype: "one_to_many"
-      sort: 1
-      required: false
-      relationship: null
-      settings:
-        list: true
-    - name: "body"
-      label: "Body"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-- description: null
-  label: "florida Post"
-  name: "florida_post"
-  sort: 1
-  listed: true
-  hasRoute: true
-  showAsTable: true
-  parent: "connecticut"
-  fields:
-    - name: "sub_text"
-      label: "List Summary"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "header_text"
-      label: "Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "sub_header"
-      label: "Sub Heading"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_image"
-      label: "Featured Image"
-      description: null
-      datatype: "images"
-      sort: 1
-      required: null
-      relationship: null
-      settings:
-        limit: 1
-        list: false
-    - name: "is_feature_clipped"
-      label: "Clip Featured Image"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "featured_image_alt"
-      label: "Featured Image Alt Text"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_video"
-      label: "Featured Video"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "schemamarkup"
-      label: "Schema Markup"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "jump_nav"
-      label: "Jump Nav"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "show_related_posts"
-      label: "Show Related Posts"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
-      description: null
-      datatype: "one_to_many"
-      sort: 1
-      required: false
-      relationship: null
-      settings:
-        list: true
-    - name: "body"
-      label: "Body"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-- description: null
-  label: "florida"
-  name: "florida"
+  label: "Florida"
+  name: "mobile_home_insurance_florida"
   sort: 1
   listed: true
   hasRoute: true
@@ -2011,7 +1027,7 @@
     - name: "schemamarkup"
       label: "Schema Markup"
       description: null
-      datatype: "wysiwyg_basic"
+      datatype: "textarea"
       sort: 1
       required: true
       relationship: null
@@ -2034,15 +1050,27 @@
         options:
           0: "No"
           1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
+    - name: "related_posts_1"
+      label: "Related Posts 1"
       description: null
-      datatype: "one_to_many"
+      datatype: "internal_link"
       sort: 1
-      required: false
+      required: true
       relationship: null
-      settings:
-        list: true
+    - name: "related_posts_2"
+      label: "Related Posts 2"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "related_posts_3"
+      label: "Related Posts 3"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
     - name: "body"
       label: "Body"
       description: null
@@ -2119,7 +1147,7 @@
     - name: "schemamarkup"
       label: "Schema Markup"
       description: null
-      datatype: "wysiwyg_basic"
+      datatype: "textarea"
       sort: 1
       required: true
       relationship: null
@@ -2142,15 +1170,27 @@
         options:
           0: "No"
           1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
+    - name: "related_posts_1"
+      label: "Related Posts 1"
       description: null
-      datatype: "one_to_many"
+      datatype: "internal_link"
       sort: 1
-      required: false
+      required: true
       relationship: null
-      settings:
-        list: true
+    - name: "related_posts_2"
+      label: "Related Posts 2"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "related_posts_3"
+      label: "Related Posts 3"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
     - name: "body"
       label: "Body"
       description: null
@@ -2227,7 +1267,7 @@
     - name: "schemamarkup"
       label: "Schema Markup"
       description: null
-      datatype: "wysiwyg_basic"
+      datatype: "textarea"
       sort: 1
       required: true
       relationship: null
@@ -2250,15 +1290,27 @@
         options:
           0: "No"
           1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
+    - name: "related_posts_1"
+      label: "Related Posts 1"
       description: null
-      datatype: "one_to_many"
+      datatype: "internal_link"
       sort: 1
-      required: false
+      required: true
       relationship: null
-      settings:
-        list: true
+    - name: "related_posts_2"
+      label: "Related Posts 2"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "related_posts_3"
+      label: "Related Posts 3"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
     - name: "body"
       label: "Body"
       description: null
